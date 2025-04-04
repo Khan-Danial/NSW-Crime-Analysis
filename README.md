@@ -1,31 +1,33 @@
 # NSW Crime Analysis
 
-## Overview
+## 📌 Overview
 
-This project analyzes crime data across New South Wales (NSW) to identify patterns and trends over time. Visualizations, including heatmaps, are used to represent crime rates across different Local Government Areas (LGAs).
+This project analyses crime data across New South Wales (NSW) to identify patterns and trends over time. Visualisations, including heatmaps, are used to represent crime rates across different Local Government Areas (LGAs).
 
-## Data Source
+## 📊 Data Source
 
-- **NSW Recorded Crime Statistics**: Data obtained from the NSW Bureau of Crime Statistics and Research.&#8203;:contentReference[oaicite:25]{index=25}
+- **NSW Recorded Crime Statistics**  
+  Public dataset available via the NSW Bureau of Crime Statistics and Research (BOCSAR).  
+  [View on data.gov.au](https://search.data.gov.au/dataset/ds-dga-6cdf7a25-4f2d-4bae-b3b5-61175e2b3b13)
 
-## Analysis
+## 🧠 Analysis Process
 
-- **Data Cleaning**: :contentReference[oaicite:26]{index=26}&#8203;:contentReference[oaicite:27]{index=27}
-- **Exploratory Data Analysis (EDA)**: :contentReference[oaicite:28]{index=28}&#8203;:contentReference[oaicite:29]{index=29}
-- **Visualization**: :contentReference[oaicite:30]{index=30}&#8203;:contentReference[oaicite:31]{index=31}
+- Data cleaning and handling of missing values
+- Exploratory Data Analysis (EDA)
+- Crime trend analysis by offence type and LGA
+- Heatmaps and geospatial visualisation using `Folium` and `Seaborn`
 
-## Results
+## 🔍 Key Insights
 
-- :contentReference[oaicite:32]{index=32}&#8203;:contentReference[oaicite:33]{index=33}
-- :contentReference[oaicite:34]{index=34}&#8203;:contentReference[oaicite:35]{index=35}
+- Identified LGAs with consistently high crime rates
+- Noted seasonal and geographic trends in offences (e.g., theft and assault)
+- Established data baselines for potential predictive modelling
 
-## Tools Used
+## 🧰 Tools & Technologies
 
-- Python (Pandas, Matplotlib, Seaborn, Folium)
-- Jupyter Notebook
+- **Languages**: Python  
+- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Folium  
+- **Environment**: Jupyter Notebook
 
-## How to Run
+## 📂 Project Structure
 
-1. Clone the repository.
-2. Install the required packages: `pip install -r requirements.txt`
-3. Open the Jupyter notebook in the `notebooks/` directory.
